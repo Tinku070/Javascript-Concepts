@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Find | Find Index</title>
+</head>
+<body>
+  <script>
+    var a = [ 10, 20, 30, 40, 50, 40];
+    document.write(a , '<br>');
+
+    var b = a.find(hook);
+    document.write(b , '<br>');
+
+    function hook(age) {
+      return age >= 30;
+    }
+
+    var a = [ 10, 20, 30, 40, 50, 40];
+    document.write(a , '<br>');
+
+    var b = a.findIndex(hook);
+    document.write(b , '<br>');
+
+    function hook(age) {
+      return age >= 30;
+    }
+  </script>
+</body>
+</html>

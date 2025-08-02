@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Some | Every</title>
+</head>
+<body>
+  <script>
+    var a = [10,209,39,59, 49, 45];
+    document.write(a , '<br>');
+    var b = a.some(check);
+    document.write(b , '<br>')
+
+    function check(age) {
+      return age <= 59;
+    }
+
+
+    var a = [10,209,39,59, 49, 45];
+    document.write(a , '<br>');
+    var b = a.every(check);
+    document.write(b , '<br>')
+
+    function check(age) {
+      return age <= 59;
+    }
+  </script>
+</body>
+</html>

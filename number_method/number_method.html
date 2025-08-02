@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number method</title>
+</head>
+<body>
+  <script>
+    var a = '100';
+    var b = Number(a);
+    document.write(typeof a + '<br>');
+    document.write(typeof b + '<br>');
+    document.write(b + '<br>');
+    var a = '100.20';
+    var b = parseInt(a);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+    var a = '100.20';
+    var b = parseFloat(a);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+    var a = '100.20';
+    var b = isFinite(a);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+    var a = 90.8;
+    var b = Number.isInteger(a);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+    var a = 90.87965897889;
+    var b = a.toFixed(4);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+    var a = 90.87965897889;
+    var b = a.toPrecision(5);
+    document.write(a + '<br>');
+    document.write(b + '<br>');
+  </script>
+</body>
+</html>

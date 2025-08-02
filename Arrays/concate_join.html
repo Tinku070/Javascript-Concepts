@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concate | join </title>
+</head>
+<body>
+  <script>
+    var x = ['shiva' , 'vishnu'];
+    y = [10, 20];
+    document.write(x,' <br>',y ,' <br>');
+
+    z = x.concat(y);
+    document.write('-----------------------',' <br>',
+    z + '<br>'+
+      '// Here we use concat method to combine the  words in array //' + '<br>'
+    );
+
+    w = z.join(" ");
+    document.write('-----------------------',' <br>',
+    w + '<br>'+
+      '// Here we use join method to combine the  words in array //' + '<br>'
+    );
+  </script>
+</body>
+</html>
